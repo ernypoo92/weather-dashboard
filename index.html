@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Weather</title>
+</head>
+<body class="container is-fluid">
+    <header class="section" id="header">
+        <h1 class="is-size-3 has-text-white has-text-weight-semibold level-item">Weather Dashboard</h1> 
+    </header>
+    <main class="columns">
+        <div class="column is-one-quarter-tablet box mt-5" id="search-column">
+            <!-- searchForm JS variable -->
+            <form class="field is-grouped-centered" id="search-form">
+                <!-- inputCity JS variable -->
+                <label for="city" class="block label is-large title">SEARCH FOR A CITY:</label>
+                <p class="mb-1">For US cities please type: "city, state, USA"</p> 
+                <p class="mb-3">For cities outside of the US please type: "city, country"</p>
+                <!-- inputCity JS variable -->
+                <input type="text" name="city" placeholder="City, State, Country" id="city" class="input block is-medium" autofocus="true" />
+                <button type="submit" class="button is-fullwidth is-medium block" id="search">Search</button>
+            </form>
+            <!-- searchHistory JS variable -->
+            <div class="" id="search-history">
+
+            </div>
+        </div>
+        <div class="column is-three-quarters-tablet" id="display-column">
+            <!-- currentDisplay JS variable -->
+            <div class="" id="current-display">
+                <!-- currentHeader JS variable -->
+                <div class="" id="current-header">
+
+                </div>
+                <!-- currentInfo JS variable -->
+                <div class="" id="current-info">
+
+                </div>
+            </div>
+            <!-- forecastDisplay JS variable -->
+            <div class="is-flex-direction-row" id="forecast">
+                <!-- forecastHeader JS variable -->
+                <div class="" id="forecast-header">
+
+                </div>
+                <!-- forecastCards JS variable -->
+                <div class="" id="forecast-cards">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

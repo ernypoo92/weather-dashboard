@@ -1,0 +1,31 @@
+#header {
+    background-image: linear-gradient(to bottom left, rgb(47, 100, 207), rgb(9, 30, 71));
+}
+
+#forecast-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#forecast-cards div {
+    width: fit-content;
+    block-size: fit-content;
+    background-color: #3d1c73;
+    color: white;
+}
+
+#search {
+    background-color: #5586e9;
+    color: white;
+    font-weight: bold;
+}
+
+.has-background-hot-pink {
+    background-color: #30ff29;
+}
+
+#uv {
+    width: fit-content;
+    block-size: fit-content;
+}
